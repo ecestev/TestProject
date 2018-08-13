@@ -1,3 +1,11 @@
+/*! \file config.cpp
+* \brief A basic configuration manager.
+* \date  2018-08-13 11:22:56 AM
+* \bug none
+* \version V0.1
+* \author Stephen Sampson [ssampson@dal.ca]
+*/
+
 #include <stdint.h>
 #include <string.h>
 #include "Config.h"

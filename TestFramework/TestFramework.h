@@ -1,3 +1,11 @@
+/*! \file TestFramework.h
+* \brief A basic framework for running tests.
+* \date  2018-08-13 11:22:56 AM
+* \bug none
+* \version V0.1
+* \author Stephen Sampson [ssampson@dal.ca]
+*/
+
 #pragma once
 
 /* Define a function pointer for a bool with no arguments */
@@ -13,9 +21,9 @@ typedef struct {
 /* Here we create a define that will be used to initialize an array of 
 	of TestFrames in 'TestFramework.c' */
 #define TESTS {\
-{"TestConfigIsInitReturnsFalseIfNotInitialized", TestConfigIsInitReturnsFalseIfNotInitialized},\
-{ "TestInitializeConfigurationManagerReturnsConfigOk", TestInitializeConfigurationManagerReturnsConfigOk },\
-{ "TestConfigIsInitReturnsTrueIfInitialized", TestConfigIsInitReturnsTrueIfInitialized }\
-/* Above this line, add your tests as per the following format:*/\
-/* {FormattedTestStringToPrint, FunctionNameOfTestToCall} */\
+	{"TestConfigIsInitReturnsFalseIfNotInitialized", TestConfigIsInitReturnsFalseIfNotInitialized},\
+	{ "TestInitializeConfigurationManagerReturnsConfigOk", TestInitializeConfigurationManagerReturnsConfigOk },\
+	{ "TestConfigIsInitReturnsTrueIfInitialized", TestConfigIsInitReturnsTrueIfInitialized }\
+	/* Above this line, add your tests as per the following format:*/\
+	/* {FormattedTestStringToPrint, FunctionNameOfTestToCall} */\
 };
