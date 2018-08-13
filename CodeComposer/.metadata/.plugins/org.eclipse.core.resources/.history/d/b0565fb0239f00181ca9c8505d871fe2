@@ -1,8 +1,0 @@
-################################################################################
-# Automatically-generated file. Do not edit!
-################################################################################
-
-USER_OBJS :=
-
-LIBS := -l"C:/Users/ssampson/workspace_v8/TestProject/CommonLib/Debug/CommonLib.lib" -lCommonLib.lib -llibc.a
-
