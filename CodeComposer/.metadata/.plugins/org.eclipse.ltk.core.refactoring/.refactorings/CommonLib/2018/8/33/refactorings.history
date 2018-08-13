@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;CommonLib/Config.c&apos; to &apos;Config.cpp&apos;" description="Rename resource &apos;Config.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Config.c" name="Config.cpp" stamp="1534184102094" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;CommonLib/Config.cpp&apos; to &apos;Config.c&apos;" description="Rename resource &apos;Config.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Config.cpp" name="Config.c" stamp="1534184148015" updateReferences="true"/>
+</session>
