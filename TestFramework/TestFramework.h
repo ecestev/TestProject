@@ -10,6 +10,8 @@ typedef struct {
 	BoolFuncPtr fn;
 } TestFrame;
 
+/* Here we create a define that will be used to initialize an array of 
+	of TestFrames in 'TestFramework.c' */
 #define TESTS {\
 {"TestConfigIsInitReturnsFalseIfNotInitialized", TestConfigIsInitReturnsFalseIfNotInitialized},\
 { "TestInitializeConfigurationManagerReturnsConfigOk", TestInitializeConfigurationManagerReturnsConfigOk },\
