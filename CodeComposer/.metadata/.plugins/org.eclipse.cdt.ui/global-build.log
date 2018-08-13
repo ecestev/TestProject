@@ -1,0 +1,175 @@
+
+**** Build of configuration Debug for project CommonLib ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Config.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/CommonLib" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --define=ccs="ccs" --define=PART_TM4C1294NCPDT -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Config.d_raw"  "../Config.c"
+Finished building: "../Config.c"
+ 
+Building target: "CommonLib.lib"
+Invoking: ARM Archiver
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armar" r "CommonLib.lib" "./Config.obj" 
+  ==>  new archive 'CommonLib.lib'
+  ==>  building archive 'CommonLib.lib'
+Finished building target: "CommonLib.lib"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Application ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../tm4c1294ncpdt_startup_ccs.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/CommonLib" --include_path="C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/Application" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --define=ccs="ccs" --define=PART_TM4C1294NCPDT -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c1294ncpdt_startup_ccs.d_raw"  "../tm4c1294ncpdt_startup_ccs.c"
+Finished building: "../tm4c1294ncpdt_startup_ccs.c"
+ 
+Building file: "../Application.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/CommonLib" --include_path="C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/Application" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --define=ccs="ccs" --define=PART_TM4C1294NCPDT -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Application.d_raw"  "../Application.c"
+Finished building: "../Application.c"
+ 
+Building target: "Application.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C1294NCPDT -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Application.map" --heap_size=512 --stack_size=512 -i"C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/CommonLib/Debug" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Application_linkInfo.xml" --rom_model -o "Application.out" "./Application.obj" "./tm4c1294ncpdt_startup_ccs.obj" "../tm4c1294ncpdt.cmd"  -lCommonLib.lib -llibc.a 
+<Linking>
+Finished building target: "Application.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TestFramework ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../TestFramework.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/TestFramework" --include_path="C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/CommonLib" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --define=ccs="ccs" --define=PART_TM4C1294NCPDT -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="TestFramework.d_raw"  "../TestFramework.c"
+Finished building: "../TestFramework.c"
+ 
+Building file: "../Tests.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/TestFramework" --include_path="C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/CommonLib" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --define=ccs="ccs" --define=PART_TM4C1294NCPDT -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Tests.d_raw"  "../Tests.c"
+Finished building: "../Tests.c"
+ 
+Building file: "../tm4c1294ncpdt_startup_ccs.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/TestFramework" --include_path="C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/CommonLib" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --define=ccs="ccs" --define=PART_TM4C1294NCPDT -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c1294ncpdt_startup_ccs.d_raw"  "../tm4c1294ncpdt_startup_ccs.c"
+Finished building: "../tm4c1294ncpdt_startup_ccs.c"
+ 
+Building target: "TestFramework.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C1294NCPDT -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"TestFramework.map" --heap_size=1024 --stack_size=1024 -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/lib" -i"C:/Users/Stephen/Desktop/RTS/TestProject/CodeComposer/CommonLib/Debug" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TestFramework_linkInfo.xml" --rom_model -o "TestFramework.out" "./TestFramework.obj" "./Tests.obj" "./tm4c1294ncpdt_startup_ccs.obj" "../tm4c1294ncpdt.cmd"  -llibc.a -lCommonLib.lib 
+<Linking>
+Finished building target: "TestFramework.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CommonLib ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CommonLib ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project TestFramework ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'TestFramework.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Application ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "Application.hex"  "Application.out" 
+DEL /F "Application.obj" "tm4c1294ncpdt_startup_ccs.obj" 
+DEL /F "Application.d" "tm4c1294ncpdt_startup_ccs.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Application ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "Application.hex"  "Application.out" 
+DEL /F "Application.obj" "tm4c1294ncpdt_startup_ccs.obj" 
+DEL /F "Application.d" "tm4c1294ncpdt_startup_ccs.d" 
+Could Not Find C:\Users\Stephen\Desktop\RTS\TestProject\CodeComposer\Application\Debug\Application.hex
+Could Not Find C:\Users\Stephen\Desktop\RTS\TestProject\CodeComposer\Application\Debug\Application.obj
+Could Not Find C:\Users\Stephen\Desktop\RTS\TestProject\CodeComposer\Application\Debug\Application.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project CommonLib ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "CommonLib.lib" 
+DEL /F "Config.obj" 
+DEL /F "Config.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project CommonLib ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "CommonLib.lib" 
+DEL /F "Config.obj" 
+DEL /F "Config.d" 
+Could Not Find C:\Users\Stephen\Desktop\RTS\TestProject\CodeComposer\CommonLib\Debug\CommonLib.lib
+Could Not Find C:\Users\Stephen\Desktop\RTS\TestProject\CodeComposer\CommonLib\Debug\Config.obj
+Could Not Find C:\Users\Stephen\Desktop\RTS\TestProject\CodeComposer\CommonLib\Debug\Config.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project TestFramework ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "TestFramework.hex"  "TestFramework.out" 
+DEL /F "TestFramework.obj" "Tests.obj" "tm4c1294ncpdt_startup_ccs.obj" 
+DEL /F "TestFramework.d" "Tests.d" "tm4c1294ncpdt_startup_ccs.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project TestFramework ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "TestFramework.hex"  "TestFramework.out" 
+DEL /F "TestFramework.obj" "Tests.obj" "tm4c1294ncpdt_startup_ccs.obj" 
+DEL /F "TestFramework.d" "Tests.d" "tm4c1294ncpdt_startup_ccs.d" 
+Could Not Find C:\Users\Stephen\Desktop\RTS\TestProject\CodeComposer\TestFramework\Debug\TestFramework.hex
+Could Not Find C:\Users\Stephen\Desktop\RTS\TestProject\CodeComposer\TestFramework\Debug\TestFramework.obj
+Could Not Find C:\Users\Stephen\Desktop\RTS\TestProject\CodeComposer\TestFramework\Debug\TestFramework.d
+Finished clean
+ 
+
+**** Build Finished ****

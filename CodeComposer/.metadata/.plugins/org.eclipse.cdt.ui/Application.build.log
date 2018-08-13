@@ -1,0 +1,15 @@
+
+**** Clean-only build of configuration Debug for project Application ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "Application.hex"  "Application.out" 
+DEL /F "Application.obj" "tm4c1294ncpdt_startup_ccs.obj" 
+DEL /F "Application.d" "tm4c1294ncpdt_startup_ccs.d" 
+Could Not Find C:\Users\Stephen\Desktop\RTS\TestProject\CodeComposer\Application\Debug\Application.hex
+Could Not Find C:\Users\Stephen\Desktop\RTS\TestProject\CodeComposer\Application\Debug\Application.obj
+Could Not Find C:\Users\Stephen\Desktop\RTS\TestProject\CodeComposer\Application\Debug\Application.d
+Finished clean
+ 
+
+**** Build Finished ****
