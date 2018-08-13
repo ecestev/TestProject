@@ -3,6 +3,7 @@
 	<name>TestFramework</name>
 	<comment></comment>
 	<projects>
+		<project>CommonLib</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
