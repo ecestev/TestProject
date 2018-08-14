@@ -1,6 +1,16 @@
 # TestProject
 A basic project consisting of an application and test harness. This is to serve as an example framework for developing using test driven development. Both a desktop project and an embedded project for the Texas Instruments Tiva C (TM4c1294NCPDT) are provided.
 
+## Brief Intro to Git
+
+Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people [Wikipedia]. 
+
+My preferred tools for using Git within Windows are 
+  - GitBash
+  - GitHub for Windows
+
+There is so much great documentation on Git already out there so I am not going to go into exhaustive detail on the subject. I will suggest however that you create an account on GitHub and/or GitLab and/or GitBucket and familiarize yourself with the Git protocol. To make your life easier, you should also take the ten minutes to learn how to generate an SSH keypair and upload your public key to your Git account. See: [https://help.github.com/articles/connecting-to-github-with-ssh/] for full instructions. 
+
 ## Visual Studio Project
 
 Simply open the .sln file in Visual Studio. You may need to upgrade your installation to meet the target version. 
