@@ -5,7 +5,7 @@ A basic project consisting of an application and test harness. This is to serve 
 
 Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people [Wikipedia]. 
 
-My preferred tools for using Git within Windows are 
+My preferred tools for using Git within Windows are:
   - GitBash
   - GitHub for Windows
 
