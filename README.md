@@ -1,5 +1,5 @@
 # TestProject
-A basic project consisting of an application and test harness. This is to serve as an example framework for developing using test driven development. Both a desktop project and an embedded project for the Texas Instruments Tiva C (TM4c1294NCPDT) are provided.
+A basic project consisting of an application and test harness. This is to serve as an example framework for developing using test driven development. Both a desktop project and an embedded project for the Texas Instruments Tiva C (TM4C1294NCPDT) are provided.
 
 ## Brief Intro to Git
 
@@ -24,6 +24,8 @@ To select a startup project, right click the solution in 'Solution Explorer' and
 ## Code Composer Project
 
 You will need to download the latest version of Code Composer Studio in order to open this project or at the very lest, dowwnload and manually register the TI v18.1.2LTS compiler. 
+
+This project is tested working on the Texas Instruments Tiva C Launchpad (TM4C1294NCPDT) with printf support to CIO Console enabled. I suggest you only use printf within the test project as your device will not always be connected to a debugger. Your main application should print to UART and be accessed via puTTY or some other terminal console.
 
 ### Importing the Project to Workspace
   - Launch Code Composer Studio and select a workspace. 
