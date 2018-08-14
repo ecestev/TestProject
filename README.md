@@ -1,5 +1,5 @@
 # TestProject
-A basic project consisting of an application and test harness. This is to serve as an example framework for developing using test driven development. Both a desktop project and an embedded project for the Texas Instruments Tiva C Launchpad (TM4C1294NCPDT) are provided.
+A basic project consisting of an application and test harness. This is to serve as an example framework for developing using test driven development. This project contains configuration files to allow it to be opened both as a desktop project using Visual Studio and as an  embedded project for the Texas Instruments Tiva C Launchpad (TM4C1294NCPDT) using Code Composer Studio. 
 
 ## Brief Intro to Git
 
