@@ -19,7 +19,7 @@ TODO: ADD explanation on TDD here.
 
 This project requires the Windows SDK version 10.0.17134.0 so you may need to upgrade your installation to meet the target version. If you open the solution and it fails to build, your SDK version is likely the culprit. Download the newest SDK from: [https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk] and then simply open the .sln file in Visual Studio.
 
-```You must build this project in x86 configuration!```
+**You must build this project in x86 configuration!**
 
 To select a startup project, right click the solution in 'Solution Explorer' and select a single startup project. You will switch between 'TestFramework' and 'Application' as you proceed through the development process. 'CommonLib' is a static library used in the other two projects and is not a valid startup project. It contains no entry point. 
 
