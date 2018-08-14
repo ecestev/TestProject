@@ -7,6 +7,7 @@
 */
 
 #include <stdint.h>
+#include <stdbool.h>
 #include "Config.h"
 
 /* Helper functions that are not used by the application but are used

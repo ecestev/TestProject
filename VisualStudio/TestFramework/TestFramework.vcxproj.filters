@@ -9,10 +9,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestFramework.cpp">
+    <ClCompile Include="TestFramework.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tests.cpp">
+    <ClCompile Include="Tests.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

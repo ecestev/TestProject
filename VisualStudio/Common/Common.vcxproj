@@ -115,7 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="config.cpp" />
+    <ClCompile Include="config.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Config.h" />

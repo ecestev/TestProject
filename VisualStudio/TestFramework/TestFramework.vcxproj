@@ -151,8 +151,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="TestFramework.cpp" />
-    <ClCompile Include="Tests.cpp" />
+    <ClCompile Include="TestFramework.c" />
+    <ClCompile Include="Tests.c" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.vcxproj">
